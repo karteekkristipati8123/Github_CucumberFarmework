@@ -1,5 +1,6 @@
 package PageFactory;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -7,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class GitHub_Login_PF {
 	
+
 	@FindBy(id="login_field")
 	WebElement txt_username;
 	
@@ -15,7 +17,6 @@ public class GitHub_Login_PF {
 	
 	@FindBy(name="commit")
 	WebElement btn_signin;
-	
 	WebDriver driver;
 	public GitHub_Login_PF(WebDriver driver)
 	{
@@ -33,9 +34,10 @@ public class GitHub_Login_PF {
 		txt_password.sendKeys(password);
 	}
 	 
-	public void clickOnSignin()
+	public void clickOnSignin() 
 	{
 		btn_signin.click();
+	
 	}
 	
 	

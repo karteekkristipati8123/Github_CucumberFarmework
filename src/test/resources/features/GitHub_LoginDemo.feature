@@ -9,4 +9,4 @@ Feature: Test login functionality
     Examples: 
       | username                       | password           |
       | karthikkristipati123@gmail.com | Karthik@github8123 |
-      | ravikrishan456@gmail.com       | Ravi@kumr456       |
+  

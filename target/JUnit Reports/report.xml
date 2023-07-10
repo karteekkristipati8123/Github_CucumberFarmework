@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="66.38" tests="2" skipped="0" failures="1" errors="0">
-<testcase classname="feature to test google search functionality" name="" time="66.041">
+<testsuite name="Cucumber" time="5.146" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Check login functionality" name="" time="3.396">
 <system-out><![CDATA[
-Given Browser is open.......................................................passed
-And user is on google search page...........................................passed
-When user enters a text in search box.......................................passed
-And hits enter..............................................................passed
-Then user is navigated to search results page...............................passed
+Given user is on login page.................................................passed
+When user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user is navigatd to home page..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="feature to test login functionality" name="Check login is successful with valid credentilas" time="0.005">
-<failure/>
+<testcase classname="Check login functionality" name="" time="1.502">
 <system-out><![CDATA[
-Given user is on login page.................................................undefined
-When user enters username and password......................................skipped
-And clicks on login button..................................................skipped
-Then user is navigated to the home page.....................................skipped
+Given user is on login page.................................................passed
+When user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user is navigatd to home page..........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

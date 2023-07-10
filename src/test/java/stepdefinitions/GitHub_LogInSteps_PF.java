@@ -42,9 +42,8 @@ public class GitHub_LogInSteps_PF {
 	@And("clicks login button")
 	public void clicks_login_button() {
 		
-		 glp.clickOnSignin();
-//		driver.findElement(By.xpath("//input[@name='commit']")).click();
+			glp.clickOnSignin();
+		
 	}
-
 
 }
